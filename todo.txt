@@ -1,0 +1,5 @@
+install flask
+write initial app
+read this file and display it.
+set up templates
+parse this file and create a list as a template
