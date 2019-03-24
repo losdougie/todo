@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+<table>
+    {% for list_item in list_data %}
+        <tr><td>{{ list_item }}</td></tr>
+    {% endfor %}
+</table>
+{% endblock content %}

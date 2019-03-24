@@ -1,8 +1,11 @@
 {% extends "layout.html" %}
 {% block content %}
 <table>
-    {% for list_item in list_data %}
-        <tr><td>{{ list_item }}</td></tr>
+    <tr><td>ID</td><td>Name</td><td>Status</td><td>Details</td></tr>
+    {% for todo_item, values in todo_data.items() %}
+    {% if values.status != "Done" %}
+        <tr><td>{{ todo_item }}</td><td>{{ values.name }}</td><td>{{ values.status }}</td><td>{{ values.details }}</td></tr>
+    {% endif %}
     {% endfor %}
 </table>
 {% endblock content %}
