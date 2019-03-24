@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ title }}</title>
-</head>
-{% for list_item in list_data %}
-    {{ list_item }}</br>
-{% endfor %}
-</body>
-</html>
+{% extends "layout.html" %}
+{% block content %}
+<table>
+    {% for list_item in list_data %}
+        <tr><td>{{ list_item }}</td></tr>
+    {% endfor %}
+</table>
+{% endblock content %}

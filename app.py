@@ -29,3 +29,6 @@ def show_template():
     title = "Template"
     test = "Test"
     return render_template("todo_list.html", title=title, list_data=test)
+
+if __name__ == "__main__":
+    app.run(debug=True)
