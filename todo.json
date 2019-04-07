@@ -1,34 +1,62 @@
 {
-  "todo_list": {
     "todo1": {
-      "name": "Name of item",
-      "details": "",
-      "time": "(time entered)",
-      "status": "(doing,not started, done)"
+        "name": "Name of item",
+        "details": "",
+        "time": "(time entered)",
+        "status": "(doing,not started, done)"
     },
     "todo2": {
-      "name": "Laundry",
-      "details": "",
-      "time": "anytime",
-      "status": "not started"
+        "name": "Laundry",
+        "details": "",
+        "time": "anytime",
+        "status": "not started"
     },
     "todo3": {
-      "name": "sleep",
-      "details": "",
-      "time": "nighttime",
-      "status": "Done"
+        "name": "sleep",
+        "details": "",
+        "time": "nighttime",
+        "status": "Done"
     },
     "todo4": {
-      "name": "code my app",
-      "details": "",
-      "time": "now",
-      "status": "started"
+        "name": "code my app",
+        "details": "",
+        "time": "now",
+        "status": "started"
     },
     "todo5": {
-      "name": "Week3 Todo App",
-      "details": "Integrate 'post' requests to push data. add a for to add a new item.",
-      "time": "next week",
-      "status": "started"
+        "name": "Week3 Todo App",
+        "details": "Integrate 'post' requests to push data. add a for to add a new item.",
+        "time": "next week",
+        "status": "started"
+    },
+    "todo6": {
+        "name": "clean up some code",
+        "details": "This todo update was thrown together, let's see if it works.",
+        "time": "",
+        "status": "not started"
+    },
+    "todo7": {
+        "name": "Let's add another",
+        "details": "this should be todo\"7\"",
+        "time": "",
+        "status": "not started"
+    },
+    "todo8": {
+        "name": "clean up this list",
+        "details": "maybe include status",
+        "time": "",
+        "status": "completed"
+    },
+    "todo9": {
+        "name": "one more todo",
+        "details": "this is with default status updated.",
+        "time": "",
+        "status": "completed"
+    },
+    "todo10": {
+        "name": "change status of the items",
+        "details": "Mark items in list \"completed\"; and maybe add a deadline.",
+        "time": "",
+        "status": "not started"
     }
-  }
 }

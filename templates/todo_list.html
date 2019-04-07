@@ -8,4 +8,10 @@
     {% endif %}
     {% endfor %}
 </table>
+<!-- Need a form here in HTML-->
+<form id="new_todo_sumbit" method="POST">
+    New Item Name: <input type="text" name="todo_name">
+    Details: <input type="text" name="todo_details">
+    <input type="submit" value="Create New ToDo"><br>
+</form>
 {% endblock content %}
