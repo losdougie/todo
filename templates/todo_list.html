@@ -8,10 +8,37 @@
     {% endif %}
     {% endfor %}
 </table>
+</hr>
+<form id="update_items" method="POST" action="update_page">
+    {% for todo_item, values in todo_data.items() %}
+    {% if values.status != "Done" %}
+    {{ todo_item }}
+    {{ values.name }}
+    <select name="todo_status">
+        <option value={{ values.status }}>{{ values.status }}</option>
+        <option value="not started">Not Started</option>
+        <option value="completed">Completed</option>
+        <option value="working">Working</option>
+        <option value="deleted">Deleted</option>
+
+    </select>
+    {{ values.details }}
+    <br>
+    {% endif %}
+    {% endfor %}
+    <input type="submit" value="Update"><br>
+</form>
+</hr>
 <!-- Need a form here in HTML-->
 <form id="new_todo_sumbit" method="POST">
     New Item Name: <input type="text" name="todo_name">
     Details: <input type="text" name="todo_details">
+    Status: <select name="todo_status" value="not started">
+              <option value="not started">Not Started</option>
+              <option value="completed">Completed</option>
+              <option value="working">Working</option>
+              <option value="deleted">Deleted</option>
+            </select>
     <input type="submit" value="Create New ToDo"><br>
 </form>
 {% endblock content %}

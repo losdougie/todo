@@ -57,6 +57,18 @@
         "name": "change status of the items",
         "details": "Mark items in list \"completed\"; and maybe add a deadline.",
         "time": "",
+        "status": "working"
+    },
+    "todo11": {
+        "name": "Testing combo",
+        "details": "adding an item post",
+        "time": "",
+        "status": "not started"
+    },
+    "todo12": {
+        "name": "new item",
+        "details": "more stuff",
+        "time": "",
         "status": "not started"
     }
 }

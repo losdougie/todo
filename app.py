@@ -39,6 +39,19 @@ def show_todo():
         "todo_list.html", title=title, todo_data=todo.display_todo(todo_file)
     )
 
+@app.route("/update_page", methods=["GET", "POST"])
+def update_todo():
+    todo_file = "todo.json"
+    title = "ToDo List"
+    if request.method == "POST":
+        new_details = request.form["todo_status"]
+        # go do something with the results
+        print(request.form)
+    return render_template(
+        "todo_list.html", title=title, todo_data=todo.display_todo(todo_file)
+    )
+
+
 
 @app.route("/temp")
 def show_template():
