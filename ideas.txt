@@ -1,0 +1,27 @@
+Suggest an itinerary
+    must be done
+    should be done
+    could be done
+    based on delivery time
+Task types:
+    require multiple units of effort
+    large unit of effort
+    expected units of effort
+        can help to determine when effort is too much and priority
+
+Every project gets a number:
+    data and work that leads to a end result (goal)
+
+status: Todo, urgent, done
+
+kanban boards:
+    what people are working on
+
+
+Garden example:
+    plant a garden vs. maintaining a garden
+
+Professional and Personal Todo lists
+    should make good suggestions
+    large vs. small projects - how to handle this?
+
